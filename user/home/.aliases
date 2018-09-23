@@ -1,0 +1,8 @@
+alias ll='ls -lah'
+alias boop='touch'
+alias papercut='/opt/MTU/printing/papercut/pc-client-linux.sh'
+alias vpn='f5fpc --start --host https://vpn.mtu.edu --user jchelm -x'
+alias vpn-status='f5fpc --info'
+alias vpn-stop='f5fpc --stop'
+alias ethup='sudo systemctl start sys-subsystem-net-devices-enp0s20f0u3.device'
+alias ethdown='sudo systemctl stop sys-subsystem-net-devices-enp0s20f0u3.device'

@@ -1,0 +1,5 @@
+# WiFi setup
+# $ sudo wifi-menu
+# #configure
+# $ sudo netctl (start|stop) <interface name>
+# # interface names can be found under /etc/netctl/*
