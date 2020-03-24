@@ -1,0 +1,5 @@
+#!/bin/bash
+alias 'dfh'="df -h | grep -vE '(loop|tmpfs)'"
+alias ll='ls -lah'
+alias gtr='git commit -m "" --allow-empty'
+alias gpf='git push --force'
